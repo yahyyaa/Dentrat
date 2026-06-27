@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Model weights (too large for GitHub — upload separately)
+models/*.pth
+models/*.pt
+models/*.onnx
+
+# Keep models folder
+!models/.gitkeep
+
+# Database (generated at runtime)
+backend/dental_history.db
+backend/*.db
+
+# Uploads
+/tmp/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Environment secrets
+.env
+.env.*
+
+# Replit
+.replit.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
